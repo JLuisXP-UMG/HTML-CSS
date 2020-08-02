@@ -81,3 +81,30 @@
     padding: 15px;
     text-align: center;
 }
+
+/* tables */
+
+.table_cls {
+    border-collapse: collapse;
+    font-family: Arial Unicode MS;
+    font-size: 15px;
+    width: 100%;
+}
+
+.table_cls th {
+    background-color: rgb(105, 163, 105);
+    color: white;
+}
+
+.table_cls td, .table_cls th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table_cls tr:hover {
+    background-color: rgb(125, 161, 125);
+}
+
+.table_cls tr:nth-child(even){
+    background-color: rgb(175, 169, 169);
+}
